@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "400";
+    src: url("../../assets/fonts/400.ttf");
+}
+
+@font-face {
+    font-family: "500";
+    src: url("../../assets/fonts/500.ttf");
+}
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.header_linklar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #434242;
+    transition: .5s;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-family: "400";
+}
+
+a:hover {
+    background-color: #4BA9FF;
+    transition: .5s;
+    color: white;
+}
+
+.header_logo {
+    width: 255.04px;
+    height: 87px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.header_btnlar {
+    display: flex;
+    align-items: center;
+}
+
+.shop {
+    color: #4BA9FF;
+    font-size: 20px;
+}
+
+.header_text {
+    font-family: "400";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.88px;
+    text-align: left;
+    margin-left: 22px;
+}
+
+.header_btn {
+    width: 83.5px;
+    height: 40px;
+    border: 1px solid #4BA9FF;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    color: #4BA9FF;
+    margin-left: 37px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.header_btn:hover {
+    transition: .5s;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.header_btn2 {
+    width: 100px;
+    height: 40px;
+    background-color: #4BA9FF;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    font-family: gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.88px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.header_btn2:hover {
+    transition: .5s;
+    border: 1px solid cadetblue;
+    background-color: white;
+    color: #434242;
+}
+
+.header_form {
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_input {
+    width: 524px;
+    height: 50px;
+    padding: 5px 20px;
+    border: 1px solid #43424280;
+    font-family: "400";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.92px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    outline: none;
+}
+
+.header_input_btn {
+    width: 153.93px;
+    height: 50px;
+    background-color: #4BA9FF;
+    font-family: "400";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.54px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid transparent;
+    color: white;
+}

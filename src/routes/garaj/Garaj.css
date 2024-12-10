@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "700";
+    src: url("../../assets/fonts/700.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.garaj_text {
+    font-family: "700";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.38px;
+    text-align: left;
+
+}
+
+.garaj_btn {
+    width: 470px;
+    height: 100px;
+    margin-top: 115px;
+    font-family: "700";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.02px;
+    text-align: center;
+    transition: 5s;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 20px 50px 0px #FF81814D;
+    background: linear-gradient(180deg, #FF5454 0%, #CD4848 100%);
+    border: none;
+    margin-left: 450px;
+}
+
+.head {
+    position: relative;
+}
+
+.car {
+    position: absolute;
+    top: 140px;
+    left: 360px;
+}

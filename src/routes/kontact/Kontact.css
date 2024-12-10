@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "700";
+    src: url("../../assets/fonts/700.ttf");
+}
+
+@font-face {
+    font-family: "500";
+    src: url("../../assets/fonts/500.ttf");
+}
+
+@font-face {
+    font-family: "400";
+    src: url("../../assets/fonts/400.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.kontact_text {
+    font-family: "700";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.38px;
+    text-align: left;
+    margin-bottom: 130px;
+}
+
+.textlar {
+    margin-left: 380px;
+    position: absolute;
+    top: 420px;
+}
+
+.kontact_text2 {
+    font-family: "500";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.25px;
+    text-align: left;
+}
+
+.kontact_text3 {
+    font-family: "400";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.88px;
+    text-align: left;
+    margin-bottom: 20px;
+}
